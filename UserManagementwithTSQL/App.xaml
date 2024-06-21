@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:UserManagementwithTSQL"
              
-             StartupUri="Views/AddUserWindow.xaml"
+             Startup="StartApp"
              
              >
     <Application.Resources>

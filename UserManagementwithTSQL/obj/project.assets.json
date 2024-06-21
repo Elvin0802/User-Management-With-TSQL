@@ -450,6 +450,22 @@
           }
         }
       },
+      "SimpleInjector/5.4.6": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -465,6 +481,20 @@
           "lib/net6.0/System.ClientModel.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ComponentModel/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/System.ComponentModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.ComponentModel.dll": {}
         }
       },
       "System.Configuration.ConfigurationManager/8.0.0": {
@@ -1441,6 +1471,30 @@
         "version.txt"
       ]
     },
+    "SimpleInjector/5.4.6": {
+      "sha512": "/n5f8xq8y0PAqE/SSKULSCUoe28UDcwG7I1Rzu+g73d5EGr+L0nqQwgRE8XUZivCioSSoaEfJ6PhlgqJ8vmU6w==",
+      "type": "package",
+      "path": "simpleinjector/5.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/SimpleInjector.dll",
+        "lib/net45/SimpleInjector.xml",
+        "lib/net461/SimpleInjector.dll",
+        "lib/net461/SimpleInjector.xml",
+        "lib/netstandard1.0/SimpleInjector.dll",
+        "lib/netstandard1.0/SimpleInjector.xml",
+        "lib/netstandard1.3/SimpleInjector.dll",
+        "lib/netstandard1.3/SimpleInjector.xml",
+        "lib/netstandard2.0/SimpleInjector.dll",
+        "lib/netstandard2.0/SimpleInjector.xml",
+        "lib/netstandard2.1/SimpleInjector.dll",
+        "lib/netstandard2.1/SimpleInjector.xml",
+        "simpleinjector.5.4.6.nupkg.sha512",
+        "simpleinjector.nuspec",
+        "simpleinjector.png"
+      ]
+    },
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -1457,6 +1511,65 @@
         "lib/netstandard2.0/System.ClientModel.xml",
         "system.clientmodel.1.0.0.nupkg.sha512",
         "system.clientmodel.nuspec"
+      ]
+    },
+    "System.ComponentModel/4.0.1": {
+      "sha512": "oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
+      "type": "package",
+      "path": "system.componentmodel/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.ComponentModel.dll",
+        "lib/netstandard1.3/System.ComponentModel.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.ComponentModel.dll",
+        "ref/netcore50/System.ComponentModel.xml",
+        "ref/netcore50/de/System.ComponentModel.xml",
+        "ref/netcore50/es/System.ComponentModel.xml",
+        "ref/netcore50/fr/System.ComponentModel.xml",
+        "ref/netcore50/it/System.ComponentModel.xml",
+        "ref/netcore50/ja/System.ComponentModel.xml",
+        "ref/netcore50/ko/System.ComponentModel.xml",
+        "ref/netcore50/ru/System.ComponentModel.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.xml",
+        "ref/netstandard1.0/System.ComponentModel.dll",
+        "ref/netstandard1.0/System.ComponentModel.xml",
+        "ref/netstandard1.0/de/System.ComponentModel.xml",
+        "ref/netstandard1.0/es/System.ComponentModel.xml",
+        "ref/netstandard1.0/fr/System.ComponentModel.xml",
+        "ref/netstandard1.0/it/System.ComponentModel.xml",
+        "ref/netstandard1.0/ja/System.ComponentModel.xml",
+        "ref/netstandard1.0/ko/System.ComponentModel.xml",
+        "ref/netstandard1.0/ru/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hans/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hant/System.ComponentModel.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.4.0.1.nupkg.sha512",
+        "system.componentmodel.nuspec"
       ]
     },
     "System.Configuration.ConfigurationManager/8.0.0": {
@@ -2260,6 +2373,7 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Microsoft.Data.SqlClient >= 5.2.1",
+      "SimpleInjector >= 5.4.6",
       "System.Data.SqlClient >= 4.8.6"
     ]
   },
@@ -2315,6 +2429,10 @@
           "Microsoft.Data.SqlClient": {
             "target": "Package",
             "version": "[5.2.1, )"
+          },
+          "SimpleInjector": {
+            "target": "Package",
+            "version": "[5.4.6, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",

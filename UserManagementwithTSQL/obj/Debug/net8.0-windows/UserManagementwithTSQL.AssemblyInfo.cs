@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserManagementwithTSQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07971c5a771a78a1aec6343f8a864b3cca7470eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserManagementwithTSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserManagementwithTSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

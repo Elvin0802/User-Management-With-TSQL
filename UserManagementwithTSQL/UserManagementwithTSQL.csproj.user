@@ -7,12 +7,18 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\AddUserWindow.xaml.cs">
+    <Compile Update="Views\Pages\DashboardView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Windows\MainWindowView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Views\AddUserWindow.xaml">
+    <Page Update="Views\Pages\DashboardView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\MainWindowView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

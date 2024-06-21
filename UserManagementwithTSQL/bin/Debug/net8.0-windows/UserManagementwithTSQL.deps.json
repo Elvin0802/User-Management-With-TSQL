@@ -9,6 +9,7 @@
       "UserManagementwithTSQL/1.0.0": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.2.1",
+          "SimpleInjector": "5.4.6",
           "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
@@ -351,6 +352,17 @@
           }
         }
       },
+      "SimpleInjector/5.4.6": {
+        "dependencies": {
+          "System.ComponentModel": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/SimpleInjector.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -361,6 +373,11 @@
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.24.5302"
           }
+        }
+      },
+      "System.ComponentModel/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
         }
       },
       "System.Configuration.ConfigurationManager/8.0.0": {
@@ -649,12 +666,26 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
+    "SimpleInjector/5.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/n5f8xq8y0PAqE/SSKULSCUoe28UDcwG7I1Rzu+g73d5EGr+L0nqQwgRE8XUZivCioSSoaEfJ6PhlgqJ8vmU6w==",
+      "path": "simpleinjector/5.4.6",
+      "hashPath": "simpleinjector.5.4.6.nupkg.sha512"
+    },
     "System.ClientModel/1.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "path": "system.clientmodel/1.0.0",
       "hashPath": "system.clientmodel.1.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
+      "path": "system.componentmodel/4.0.1",
+      "hashPath": "system.componentmodel.4.0.1.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/8.0.0": {
       "type": "package",

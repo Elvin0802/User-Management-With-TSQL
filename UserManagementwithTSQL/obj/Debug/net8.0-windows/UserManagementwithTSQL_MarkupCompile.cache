@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Visual Studio - IDE\C# Codes File\WPF Apps\UserManagementwithTSQL\UserManagementwithTSQL\App.xaml
-11209064593
+2414012586
 
-81184785456
-227-48431343
-Views\AddUserWindow.xaml;
+11-1425855961
+228-1625096422
+Views\Pages\DashboardView.xaml;Views\Windows\MainWindowView.xaml;
 
 False
 
